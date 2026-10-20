@@ -1,0 +1,16 @@
+
+openapi: 3.1.0
+
+info:
+  title: InkluSport API
+  version: 1.0.0
+  description: API de ejemplo para gestionar recursos deportivos inclusivos.
+
+paths:
+  /fruits:
+    get:
+      operationId: listFruits
+      summary: Listar frutas
+      responses:
+        "200":
+          description: Lista de frutas obtenida correctamente.
